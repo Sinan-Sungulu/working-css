@@ -1,0 +1,142 @@
+/* Global - Start */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Global - Finish */
+
+/* Header - Start */
+
+#top-header {
+    background-color: #1e5388;
+    padding: 15px;
+   
+}
+#top-header__h1 {
+    width: calc(100px);
+    display:inline-block;
+    padding-left: 50px;
+    color: #DBC4AF;
+    letter-spacing: 2px;
+
+}
+#top-nav {
+    display:inline-block;
+    width: calc(99% - 100px);
+}
+#top-nav__ul {
+    list-style-type:none;
+    text-align:right;
+}
+.top-nav__ul__items {
+    display:inline-block;
+    margin-left: 23px;
+    padding: 5px;
+}
+.top-nav__ul__items a::before {
+    content:'\25BA';
+    font-size: 10px;
+    margin-right: 3px;
+}
+.top-nav__ul__items a {
+    text-decoration:none;
+    color: #F3EAC0;
+    font-size: 18px;
+}
+
+li.login {
+    border: 1px solid #DBC4AF;
+    margin-right: 10px;
+}
+
+.login a::before{
+    content: '';
+}
+.top-nav__ul__items:hover {
+    background-color: #F3EAC0;
+    border-radius: 10px;
+}
+.top-nav__ul__items:hover a {
+    color: #747080;
+    
+}
+.top-nav__ul__items:hover a::before {
+    content: '';
+}
+.top-nav__ul__items a:active {
+    color: #710019;
+}
+/* Header - Finish */
+
+/* Content - Start */
+#container {
+    background-image: url( wp5556216.jpg);
+    height: 500px;
+    margin-top: 10px;
+    background-position: left;    
+    overflow: auto;
+}
+#container__h2 {
+    color: #F3EAC0;
+    text-align:center;
+    background-color:#747080;
+    width:calc(100% / 2);
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 20px;
+    padding: 0 10PX;
+    word-spacing: 3px;
+}
+
+/* Content - Finish*/
+
+/* Footer- Start*/
+
+#footer {
+
+    margin-top: 70px;
+}
+#footer-header {
+    width: calc(60%);
+    margin: 0 auto;
+}
+#footer-header__h2 {
+    width: calc(170px);
+    text-align: center;
+    width: 100%;
+    font-size: 30px;
+    font-weight: 400;
+
+}
+#footer-header__p {
+    text-align: center;
+    margin-top: 15px;
+} 
+
+footer main {
+    padding-bottom: 60px;
+}
+footer main section {
+    display: inline-block;
+    width: 30%;
+    margin-top: 60px;
+    margin-left: 30px;
+    height: 217px;
+}
+footer main section p {
+    /* :)))) çok zorladı id vermeye üşendim :)) */
+    text-align: center;
+    text-align: justify;
+    padding-bottom: 30px;
+}
+footer main section h3 {
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-size: 27px;
+    font-weight: lighter;
+}
+
+/* Footer- Finish*/
