@@ -36,7 +36,7 @@
     padding: 5px;
 }
 .top-nav__ul__items a::before {
-    content:'\25BA';
+    /* content:'\25BA'; */
     font-size: 10px;
     margin-right: 3px;
 }
@@ -55,15 +55,14 @@ li.login {
     content: '';
 }
 .top-nav__ul__items:hover {
-    background-color: #F3EAC0;
-    border-radius: 10px;
+    border-radius: 10px; 
 }
 .top-nav__ul__items:hover a {
-    color: #747080;
+     color: #710019; 
     
 }
 .top-nav__ul__items:hover a::before {
-    content: '';
+    /* content: ''; */
 }
 .top-nav__ul__items a:active {
     color: #710019;
