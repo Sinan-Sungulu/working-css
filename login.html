@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,800;1,300&family=Oswald:wght@200&family=Poppins:ital,wght@0,300;1,200;1,300&family=Raleway:ital,wght@1,200&family=Roboto:wght@500&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Roboto', sans-serif;
+        }
+        body {
+            background-color: #EFE7BC;
+        }
+        #list-ul {
+            list-style-type: none;
+        }
+        .list-label {
+            display: block;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            text-align: left;
+            margin-left: calc(30px);
+            
+        }
+        #container-login {
+            width: calc(35%);
+            height: calc(400px);
+            margin: auto;
+            overflow: auto;
+            margin-top: 10px;
+        }
+        #container-login:hover {
+            box-shadow: 5px 10px 8px 10px #3D5B59;
+            transition-duration: 700ms;   
+            border-radius: 10px;
+        }
+       
+        #form-login {
+            width: calc(50%);
+            margin: auto;
+            margin-top: 15px;
+            text-align: center;
+            color: #3D5B59;
+        }
+        header {
+            width: calc(50%);
+            margin: auto;
+            text-align: center;
+            margin-top: 20px;
+            padding-bottom: 10px;
+            color: #3D5B59;
+        }
+        #user-icon {
+            display: block;
+            margin: auto;
+            width: calc(30%);
+            font-size: 60px;
+            text-align: center;
+            overflow: auto;
+            margin-top: calc(10% - 5%);
+            border-bottom: 3px solid #3D5B59;
+            padding-bottom: 10px;
+            border-radius: 30px;
+            color: #3D5B59;
+
+        }
+        #other {
+           
+        }
+        #other i{
+            display: inline-block;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-top: 30px;
+            font-size: xx-large;
+            color: #3D5B59;
+        }
+        #other i:hover {
+            color: #98D7C2;
+            transition-duration: 200ms;
+            border-bottom: 3px solid #B1D8B7;
+            border-radius: 30%;
+            padding-bottom: 5px;
+
+        }
+        input {
+            outline: none;
+        }
+        #login-button {
+            margin-top: 20px;
+            padding: 4px 30px;
+            border: none;
+            background-color: #3D5B59;
+            color: #EFE7BC;
+
+        }
+        #login-button:hover {
+            color: #3D5B59;
+            background-color: #98D7C2;
+            transition-duration: 300ms;
+            box-shadow: 3px 5px 4px #888888;
+
+        }
+    </style>
+</head>
+<body>
+    <i class="fa-solid fa-user" id="user-icon"></i>
+    <div id="container-login">
+        <header>
+            <h2>Login In</h2>
+        </header>
+        <div id="form-login">
+            <ul id="list-ul">
+                <li class="list-item">
+                    <label for="nick" class="list-label" id="">Nick Name</label>
+                    <input type="text" name="" id="nick"></li>
+                <li class="list-item" >
+                    <label for="mail" class="list-label" id="">Mail</label>
+                    <input type="email" name="" id="mail"></li>
+                <li class="list-item">
+                    <label for="passwd" class="list-label" id="">Password</label>
+                    <input type="password" name="" id="passwd"></li>
+            </ul>
+            <form action=""><input type="button" value="Login" id="login-button"></form>
+            <div id="other">
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-google-plus-g"></i>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

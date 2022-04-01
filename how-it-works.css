@@ -51,6 +51,9 @@ li.login {
     margin-right: 10px;
 }
 
+.login:hover {
+    transition-duration: 200ms;
+}
 .login a::before{
     content: '';
 }
@@ -137,5 +140,39 @@ footer main section h3 {
     font-size: 27px;
     font-weight: lighter;
 }
+.icon {
+    display: inline-block;
+    width: calc(100%);
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #710019;
+}
 
+#bottom-footer {
+
+}
+#bottom-footer__div { 
+    display: inline-block;
+    width: calc(50%);
+    height: 333.2px;
+    background-color: #1e5388;
+}
+#bottom-footer__img {
+    background-image: url( fetures.jpeg);
+    width: calc(50%);
+    display: inline-block;
+}
 /* Footer- Finish*/
+
+#img-div {
+    background-image: url(fetures.jpeg);
+    width: 49%;
+    height: 350px;
+    background-position: center top;
+    display: inline-block;
+}
+.features-class {
+    display: inline-block;
+    width: calc(49%);
+}
